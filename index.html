@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>शिवा किराना स्टोर | Shiva Kirana Store</title>
+<meta name="description" content="शिवा किराना स्टोर - शुद्ध सामान, उचित दाम। दाल, चावल, आटा, मसाले, तेल और घर का सारा किराना सामान। होम डिलीवरी और WhatsApp ऑर्डर।">
+<meta name="theme-color" content="#7a0f1a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%237a0f1a'/%3E%3Ctext x='50' y='66' font-size='54' text-anchor='middle' fill='%23e8b923'%3Eशि%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Mukta:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--red:#b3121f;--red-d:#7a0f1a;--blue:#10224a;--blue-l:#1d3a78;--gold:#e8b923;--gold-d:#b98a0b;--white:#fff;--bg:#fffaf0;--ink:#1c1c28;--mut:#666;--ok:#1b7a3a;--r:14px}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{font-family:'Mukta',sans-serif;background:var(--bg);color:var(--ink);font-size:17px;line-height:1.5;padding-bottom:70px}
+h1,h2,h3,.brand{font-family:'Yatra One','Mukta',serif;font-weight:400}
+a{color:inherit}
+button{font-family:inherit;cursor:pointer;border:0}
+.wrap{max-width:1100px;margin:auto;padding:0 14px}
+header{background:var(--red-d);color:#fff;position:sticky;top:0;z-index:50;border-bottom:3px solid var(--gold)}
+.top{display:flex;align-items:center;gap:10px;padding:8px 0}
+.logo{width:44px;height:44px;border-radius:12px;background:var(--gold);color:var(--red-d);display:grid;place-items:center;font-family:'Yatra One';font-size:24px;flex:none}
+.brand{font-size:19px;line-height:1.1;cursor:pointer}
+.brand small{display:block;font-family:Mukta;font-size:12px;color:var(--gold)}
+.sp{flex:1}
+.ib{background:rgba(255,255,255,.14);color:#fff;border-radius:10px;padding:8px 11px;font-size:15px;font-weight:600;position:relative}
+.badge{position:absolute;top:-6px;right:-6px;background:var(--gold);color:var(--red-d);border-radius:20px;font-size:12px;min-width:20px;padding:0 5px;font-weight:700}
+.search{display:flex;gap:6px;padding:0 0 10px}
+.search input{flex:1;padding:11px 14px;border-radius:10px;border:0;font-size:16px;font-family:inherit}
+nav.menu{display:flex;gap:4px;overflow-x:auto;background:var(--blue);padding:6px 10px;scrollbar-width:none}
+nav.menu a{color:#fff;text-decoration:none;white-space:nowrap;padding:6px 12px;border-radius:20px;font-size:15px;font-weight:600}
+nav.menu a.on{background:var(--gold);color:var(--blue)}
+.hero{background:linear-gradient(135deg,var(--red-d),var(--blue));color:#fff;padding:30px 0;border-bottom:5px solid var(--gold)}
+.hero h1{font-size:30px;line-height:1.2;margin-bottom:8px}
+.hero p{color:#f3e3b0;margin-bottom:16px}
+.btn{display:inline-block;padding:12px 18px;border-radius:12px;font-weight:700;font-size:16px;text-decoration:none;text-align:center}
+.b-gold{background:var(--gold);color:var(--blue)}
+.b-red{background:var(--red);color:#fff}
+.b-blue{background:var(--blue);color:#fff}
+.b-wa{background:#1fa855;color:#fff}
+.b-out{background:#fff;color:var(--red);border:2px solid var(--red)}
+.b-sm{padding:8px 12px;font-size:14px;border-radius:10px}
+.b-full{display:block;width:100%}
+section{padding:22px 0}
+h2.t{font-size:24px;color:var(--red-d);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+h2.t:after{content:"";flex:1;height:2px;background:linear-gradient(90deg,var(--gold),transparent)}
+.cats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.cat{background:#fff;border:1px solid #f0dca0;border-radius:var(--r);padding:12px 6px;text-align:center;cursor:pointer;font-weight:600;font-size:14px;line-height:1.25}
+.cat span{display:block;font-size:30px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.card{background:#fff;border-radius:var(--r);border:1px solid #eee;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 8px rgba(16,34,74,.07)}
+.pimg{aspect-ratio:1;background:linear-gradient(135deg,#fff4d6,#ffe3e3);display:grid;place-items:center;font-size:56px;position:relative;cursor:pointer}
+.pimg img{width:100%;height:100%;object-fit:cover}
+.off{position:absolute;top:8px;left:8px;background:var(--red);color:#fff;font-size:12px;font-weight:700;padding:2px 8px;border-radius:20px}
+.pb{padding:10px;display:flex;flex-direction:column;gap:3px;flex:1}
+.pn{font-weight:700;line-height:1.25;cursor:pointer}
+.pe{font-size:13px;color:var(--mut)}
+.pr{font-size:19px;font-weight:700;color:var(--red-d)}
+.pr s{font-size:14px;color:var(--mut);font-weight:400;margin-left:5px}
+.pr em{font-style:normal;font-size:14px;color:var(--blue-l)}
+.stk{font-size:13px;font-weight:600}.in{color:var(--ok)}.out{color:var(--red)}
+.acts{display:flex;flex-direction:column;gap:6px;margin-top:auto;padding-top:6px}
+.info{display:grid;grid-template-columns:1fr;gap:10px}
+.box{background:#fff;border-radius:var(--r);padding:14px;border-left:5px solid var(--gold);box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.box h3{color:var(--blue);font-size:19px;margin-bottom:4px}
+.row{display:flex;gap:10px;align-items:center;background:#fff;border-radius:var(--r);padding:10px;margin-bottom:8px;border:1px solid #eee}
+.row .th{width:56px;height:56px;border-radius:10px;background:#fff4d6;display:grid;place-items:center;font-size:30px;flex:none;overflow:hidden}
+.row .th img{width:100%;height:100%;object-fit:cover}
+.row .m{flex:1;min-width:0}
+.qty{display:flex;align-items:center;gap:8px}
+.qty button{width:34px;height:34px;border-radius:10px;background:var(--blue);color:#fff;font-size:20px}
+.sum{background:#fff;border-radius:var(--r);padding:14px;border:2px solid var(--gold)}
+.sum div{display:flex;justify-content:space-between;padding:4px 0}
+.sum .tot{font-size:20px;font-weight:700;border-top:2px dashed #ddd;margin-top:6px;padding-top:8px;color:var(--red-d)}
+label{display:block;font-weight:600;margin:10px 0 4px}
+input,select,textarea{width:100%;padding:11px;border:1.5px solid #ccc;border-radius:10px;font-size:16px;font-family:inherit;background:#fff}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.pills{display:flex;gap:8px;flex-wrap:wrap}
+.pill{padding:9px 14px;border-radius:30px;border:2px solid var(--blue);font-weight:600;cursor:pointer;background:#fff}
+.pill.on{background:var(--blue);color:#fff}
+.tabs{display:flex;gap:6px;overflow-x:auto;margin-bottom:12px}
+.tabs button{padding:9px 14px;border-radius:10px;background:#fff;border:2px solid var(--blue);font-weight:700;color:var(--blue);white-space:nowrap}
+.tabs button.on{background:var(--blue);color:#fff}
+.st{display:inline-block;padding:3px 10px;border-radius:20px;font-size:13px;font-weight:700;background:var(--gold);color:var(--blue)}
+.note{background:#fff3cd;border:1px solid #e8b923;padding:10px;border-radius:10px;font-size:14px;margin:10px 0}
+.prose p,.prose li{margin-bottom:8px}.prose ul{padding-left:20px}
+footer{background:var(--blue);color:#ddd;padding:24px 0 14px;margin-top:20px;border-top:4px solid var(--gold)}
+footer h3{color:var(--gold);margin-bottom:6px}
+footer a{color:#fff;display:block;padding:3px 0}
+.built{font-size:11px;text-align:center;color:#9aa6c8;margin-top:14px;text-transform:lowercase}
+.bar{position:fixed;bottom:0;left:0;right:0;background:#fff;display:flex;gap:8px;padding:8px;border-top:3px solid var(--gold);z-index:60}
+.bar a,.bar button{flex:1}
+.toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:var(--blue);color:#fff;padding:10px 18px;border-radius:30px;z-index:99;font-weight:600;opacity:0;transition:.3s;pointer-events:none}
+.toast.show{opacity:1}
+@media(min-width:700px){.grid{grid-template-columns:repeat(4,1fr)}.cats{grid-template-columns:repeat(6,1fr)}.info{grid-template-columns:repeat(3,1fr)}.hero h1{font-size:40px}body{padding-bottom:70px}}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap">
+  <div class="top">
+   <div class="logo">शि</div>
+   <div class="brand" onclick="go('home')"><span id="bn"></span><small id="bt"></small></div>
+   <div class="sp"></div>
+   <button class="ib" onclick="toggleLang()" id="lb">EN</button>
+   <button class="ib" onclick="go('cart')">🛒<span class="badge" id="cc">0</span></button>
+  </div>
+  <div class="search"><input id="q" placeholder="" oninput="doSearch(this.value)" aria-label="search"></div>
+ </div>
+ <nav class="menu" id="menu"></nav>
+</header>
+<main id="app"></main>
+<footer><div class="wrap" id="foot"></div></footer>
+<div class="bar" id="bar"></div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ================= DATA ================= */
+const CATS=[
+['dal','दालें','Pulses','🫘',[['अरहर दाल','Arhar Dal'],['मूंग दाल','Moong Dal'],['मसूर दाल','Masoor Dal'],['उड़द दाल','Urad Dal'],['चना दाल','Chana Dal'],['राजमा','Rajma'],['लोबिया','Lobia'],['काबुली चना','Kabuli Chana']]],
+['rice','चावल','Rice','🍚',[['बासमती चावल','Basmati Rice'],['सोना मसूरी','Sona Masoori'],['देसी चावल','Desi Rice'],['कोलम चावल','Kolam Rice'],['टूटा चावल','Broken Rice']]],
+['atta','आटा, मैदा और सूजी','Flour & Suji','🌾',[['गेहूं का आटा','Wheat Atta'],['मैदा','Maida'],['सूजी','Suji'],['बेसन','Besan'],['मक्के का आटा','Makka Atta']]],
+['oil','तेल और घी','Oil & Ghee','🛢️',[['सरसों का तेल','Mustard Oil'],['रिफाइंड तेल','Refined Oil'],['सोयाबीन तेल','Soybean Oil'],['नारियल तेल','Coconut Oil'],['ऑलिव ऑयल','Olive Oil'],['देसी घी','Desi Ghee']]],
+['masala','मसाले','Spices','🌶️',[['हल्दी पाउडर','Turmeric Powder'],['लाल मिर्च पाउडर','Red Chilli Powder'],['धनिया पाउडर','Coriander Powder'],['जीरा','Jeera'],['चाट मसाला','Chaat Masala'],['गरम मसाला','Garam Masala'],['साबुत मसाले','Whole Spices']]],
+['food','खाने का सामान','Food Items','🍝',[['चीनी','Sugar'],['नमक','Salt'],['पोहा','Poha'],['दलिया','Daliya'],['सूजी','Suji (Rava)'],['मैकरोनी','Macaroni'],['पास्ता','Pasta'],['कॉर्नफ्लेक्स','Cornflakes'],['ओट्स','Oats']]],
+['tea','चाय, कॉफी और ड्रिंक','Tea, Coffee & Drinks','☕',[['चाय पत्ती','Tea Leaves'],['कॉफी','Coffee'],['ग्रीन टी','Green Tea'],['मिल्क पाउडर','Milk Powder'],['हेल्थ ड्रिंक','Health Drink']]],
+['biscuit','बिस्कुट और नमकीन','Biscuits & Namkeen','🍪',[['बिस्कुट','Biscuits'],['कुकीज','Cookies'],['नमकीन','Namkeen'],['चिप्स','Chips'],['कुरकुरे','Kurkure'],['चॉकलेट','Chocolate'],['टॉफी','Toffee']]],
+['soap','साबुन और डिटर्जेंट','Soap & Detergent','🧼',[['नहाने का साबुन','Bath Soap'],['कपड़े धोने का साबुन','Laundry Soap'],['डिटर्जेंट पाउडर','Detergent Powder'],['लिक्विड डिटर्जेंट','Liquid Detergent'],['डिशवॉश','Dishwash'],['टॉयलेट क्लीनर','Toilet Cleaner']]],
+['cosmetic','कॉस्मेटिक्स और पर्सनल केयर','Cosmetics & Personal Care','🧴',[['शैम्पू','Shampoo'],['हेयर ऑयल','Hair Oil'],['क्रीम','Cream'],['फेस वॉश','Face Wash'],['टूथपेस्ट','Toothpaste'],['टूथब्रश','Toothbrush'],['डियोडरेंट','Deodorant']]],
+['home','घरेलू उपयोगी सामान','Household Items','🧹',[['झाड़ू','Broom'],['पोछा','Mop'],['बाल्टी','Bucket'],['मग','Mug'],['डिब्बे','Containers'],['क्लीनिंग ब्रश','Cleaning Brush'],['बैटरी','Battery']]],
+['stat','स्टेशनरी','Stationery','✏️',[['पेन','Pen'],['पेंसिल','Pencil'],['कॉपी','Copy / Notebook'],['रजिस्टर','Register'],['इरेज़र','Eraser'],['शार्पनर','Sharpener'],['स्कूल बैग','School Bag']]],
+['puja','पूजा सामग्री','Puja Items','🪔',[['अगरबत्ती','Agarbatti'],['धूप','Dhoop'],['रुई','Cotton Wick (Rui)'],['बाती','Batti'],['पूजा का तेल','Puja Oil'],['कपूर','Camphor'],['रोली','Roli'],['माला','Mala'],['पूजा थाली','Puja Thali']]],
+['baby','बच्चों का सामान','Baby Products','🍼',[['डायपर','Diapers'],['बेबी वाइप्स','Baby Wipes'],['बेबी पाउडर','Baby Powder'],['बेबी क्रीम','Baby Cream'],['बेबी फूड','Baby Food']]],
+['dry','ड्राई फ्रूट्स','Dry Fruits','🥜',[['बादाम','Almonds'],['काजू','Cashew'],['किशमिश','Raisins'],['अखरोट','Walnuts'],['पिस्ता','Pistachio'],['छुहारा','Dates (Chhuhara)'],['मखाना','Makhana'],['मूंगफली','Peanuts']]],
+['achar','अचार और पापड़','Pickle & Papad','🥒',[['आम का अचार','Mango Pickle'],['नींबू का अचार','Lemon Pickle'],['मिक्स अचार','Mixed Pickle'],['पापड़','Papad'],['बड़ी','Badi']]],
+['frozen','फ्रोजन और अन्य सामान','Frozen & Others','🧊',[['फ्रोजन मटर','Frozen Peas'],['फ्रोजन सब्जियां','Frozen Vegetables'],['फ्रोजन स्नैक्स','Frozen Snacks']]],
+['veg','सब्जियां और अनाज','Vegetables & Grains','🧅',[['प्याज','Onion'],['आलू','Potato'],['टमाटर','Tomato'],['लहसुन','Garlic'],['अदरक','Ginger'],['हरी मिर्च','Green Chilli']]],
+['health','स्वास्थ्य और प्राथमिक उपचार','Health & First Aid','🩹',[['बैंडेज','Bandage'],['कॉटन रोल','Cotton Roll'],['एंटीसेप्टिक लिक्विड','Antiseptic Liquid'],['थर्मामीटर','Thermometer']]],
+['water','पानी और पेय पदार्थ','Water & Beverages','🧃',[['मिनरल वाटर','Mineral Water'],['पैकेज्ड ड्रिंक','Packaged Drink'],['जूस','Juice']]],
+['pet','पशु आहार','Animal Feed','🐄',[['गाय का चारा','Cattle Feed'],['कुत्ते का खाना','Dog Food'],['बिल्ली का खाना','Cat Food'],['पक्षियों का दाना','Bird Seed']]],
+['festival','त्योहार विशेष सामान','Festival Items','🎆',[['राखी','Rakhi'],['दीया','Diya'],['रंग','Colours'],['गुलाल','Gulal'],['त्योहार पूजा सामग्री','Festival Puja Kit']]]
+];
+const STATUS=[['received','ऑर्डर मिला','Order Received'],['confirmed','ऑर्डर कन्फर्म','Order Confirmed'],['preparing','तैयार हो रहा है','Preparing'],['out','डिलीवरी के लिए निकला','Out for Delivery'],['delivered','डिलीवर हो गया','Delivered'],['cancelled','रद्द','Cancelled']];
+
+const UI={
+ name:['शिवा किराना स्टोर','Shiva Kirana Store'],tag:['शुद्ध सामान - उचित दाम - आपकी सेवा में हर समय','Pure goods - Fair price - At your service always'],
+ search:['🔍 सामान खोजें (नाम, ब्रांड, श्रेणी)','🔍 Search product, brand, category'],
+ home:['होम','Home'],shop:['सारा सामान','Shop All'],cats:['श्रेणियां','Categories'],cart:['कार्ट','Cart'],orders:['मेरे ऑर्डर','My Orders'],about:['हमारे बारे में','About Us'],contact:['संपर्क','Contact'],admin:['एडमिन','Admin'],
+ add:['🛒 कार्ट में डालें','🛒 Add to Cart'],buy:['अभी खरीदें','Buy Now'],ask:['भाव पूछें','Ask price'],in:['उपलब्ध','In stock'],out:['स्टॉक खत्म','Out of stock'],
+ wa:['WhatsApp पर ऑर्डर','Order on WhatsApp'],call:['कॉल करें','Call'],
+ heroT:['घर का सारा किराना, अब आपके मोबाइल पर','All your home grocery, now on your phone'],heroP:['होम डिलीवरी या खुद आकर ले जाएं। WhatsApp पर भी ऑर्डर करें।','Home delivery or self-pickup. Order on WhatsApp too.'],
+ feat:['⭐ खास सामान','⭐ Featured products'],best:['🔥 सबसे ज़्यादा बिकने वाला','🔥 Best sellers'],offers:['🏷️ खास ऑफर','🏷️ Special offers'],newa:['🆕 नया आया','🆕 New arrivals'],
+ nothing:['कुछ नहीं मिला','Nothing found'],empty:['आपका कार्ट खाली है','Your cart is empty'],
+ sub:['सबटोटल','Subtotal'],del:['डिलीवरी चार्ज','Delivery charge'],total:['कुल रकम','Total'],free:['मुफ्त','Free'],
+ checkout:['चेकआउट करें','Checkout'],place:['ऑर्डर करें','Place order'],
+ pricepending:['कुछ सामान का भाव दुकानदार बताएंगे','Owner will confirm price for some items'],
+ deliv:['🚚 होम डिलीवरी','🚚 Home delivery'],pick:['🏪 खुद लेने आएंगे','🏪 Self-pickup'],
+ dinfo:['पास के इलाकों में होम डिलीवरी। चार्ज और समय ऑर्डर पर बताया जाएगा।','Home delivery in nearby areas. Charge and time confirmed on order.'],
+ pinfo:['दुकान से खुद सामान ले जाने का विकल्प, कोई डिलीवरी चार्ज नहीं।','Pick up from the store, no delivery charge.'],
+ sinfo:['सवाल? कॉल या WhatsApp करें, हम मदद करेंगे।','Questions? Call or WhatsApp, we will help.']
+};
+let lang=localStorage.getItem('sk_lang')||'hi';
+const T=k=>UI[k][lang==='hi'?0:1];
+const L=(h,e)=>lang==='hi'?h:e;
+
+/* ================= STORE ================= */
+const DEF={settings:{wa:'',phone:'',email:'',address:'',hours:'सुबह 8 बजे - रात 9 बजे',delivery:0,freeAbove:0,pins:'',eta:'2-3 घंटे',cod:true,upi:'',minOrder:0},products:[],cats:[],orders:[],seq:0,adminHash:''};
+let S=load();
+function load(){try{const s=JSON.parse(localStorage.getItem('sk_store'));if(s&&s.products)return s}catch(e){}
+ const d=JSON.parse(JSON.stringify(DEF));
+ CATS.forEach(c=>{d.cats.push({id:c[0],hi:c[1],en:c[2],icon:c[3]});c[4].forEach((p,i)=>d.products.push({id:c[0]+'_'+i,cat:c[0],hi:p[0],en:p[1],brand:'',wt:'',price:null,mrp:null,stock:true,on:true,desc:'',img:'',feat:i<2,best:i===2,isnew:i===3,t:Date.now()-i}))});
+ localStorage.setItem('sk_store',JSON.stringify(d));return d}
+function save(){try{localStorage.setItem('sk_store',JSON.stringify(S))}catch(e){toast('Storage full - photo छोटी रखें')}}
+let cart=JSON.parse(localStorage.getItem('sk_cart')||'[]');
+function saveCart(){localStorage.setItem('sk_cart',JSON.stringify(cart));document.getElementById('cc').textContent=cart.reduce((a,b)=>a+b.q,0)}
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const P=id=>S.products.find(p=>p.id===id);
+const C=id=>S.cats.find(c=>c.id===id)||{hi:'',en:'',icon:'📦'};
+const pname=p=>L(p.hi,p.en);
+const money=n=>'₹'+(Math.round(n*100)/100);
+const hasPrice=p=>p.price!=null&&p.price!==''&&+p.price>0;
+function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('show'),1800)}
+function waNum(){return (S.settings.wa||'').replace(/\D/g,'').replace(/^0+/,'').replace(/^(\d{10})$/,'91$1')}
+function waLink(text){const n=waNum();return 'https://wa.me/'+n+'?text='+encodeURIComponent(text)}
+function needWA(){if(!waNum()){toast(L('दुकानदार ने अभी WhatsApp नंबर नहीं डाला','Owner has not set WhatsApp number yet'));return true}return false}
+
+/* ================= ROUTER ================= */
+let route=['home'],qs='',catF='',cur;
+function go(r){location.hash='#'+r}
+window.addEventListener('hashchange',render);
+function doSearch(v){qs=v.trim();catF='';if(route[0]!=='shop'){go('shop')}else render()}
+function toggleLang(){lang=lang==='hi'?'en':'hi';localStorage.setItem('sk_lang',lang);render()}
+
+/* ================= CARDS ================= */
+function pimg(p,big){const c=C(p.cat);return p.img?`<img src="${esc(p.img)}" alt="${esc(pname(p))}" loading="lazy">`:`<span ${big?'style="font-size:96px"':''}>${c.icon}</span>`}
+function priceHTML(p){if(!hasPrice(p))return `<span class="pr"><em>${T('ask')}</em></span>`;
+ const d=p.mrp&&+p.mrp>+p.price?Math.round((1-p.price/p.mrp)*100):0;return `<div class="pr">${money(p.price)}${d?`<s>${money(p.mrp)}</s>`:''}</div>`}
+function card(p){const d=hasPrice(p)&&p.mrp&&+p.mrp>+p.price?Math.round((1-p.price/p.mrp)*100):0;
+ return `<div class="card"><div class="pimg" onclick="go('product/${p.id}')">${pimg(p)}${d?`<span class="off">${d}% OFF</span>`:''}</div>
+ <div class="pb"><div class="pn" onclick="go('product/${p.id}')">${esc(pname(p))}</div><div class="pe">${esc(L(p.en,p.hi))}${p.brand?' · '+esc(p.brand):''}${p.wt?' · '+esc(p.wt):''}</div>
+ ${priceHTML(p)}<div class="stk ${p.stock?'in':'out'}">${p.stock?'✔ '+T('in'):'✖ '+T('out')}</div>
+ <div class="acts"><button class="btn b-red b-sm" ${p.stock?'':'disabled style="opacity:.4"'} onclick="addCart('${p.id}')">${T('add')}</button>
+ <button class="btn b-blue b-sm" ${p.stock?'':'disabled style="opacity:.4"'} onclick="buyNow('${p.id}')">${T('buy')}</button></div></div></div>`}
+const vis=()=>S.products.filter(p=>p.on);
+function addCart(id,q=1,silent){const i=cart.find(x=>x.id===id);if(i)i.q+=q;else cart.push({id,q});saveCart();if(!silent)toast('✔ '+L('कार्ट में जोड़ा','Added to cart'))}
+function buyNow(id){addCart(id,1,true);go('checkout')}
+function chg(id,d){const i=cart.find(x=>x.id===id);if(!i)return;i.q+=d;if(i.q<1)cart=cart.filter(x=>x.id!==id);saveCart();render()}
+function rm(id){cart=cart.filter(x=>x.id!==id);saveCart();render()}
+
+/* ================= PAGES ================= */
+function pHome(){
+ const f=vis().filter(p=>p.feat).slice(0,8),b=vis().filter(p=>p.best).slice(0,8),o=vis().filter(p=>hasPrice(p)&&p.mrp&&+p.mrp>+p.price).slice(0,8),n=vis().filter(p=>p.isnew).slice(0,8);
+ const sec=(t,a)=>a.length?`<section><div class="wrap"><h2 class="t">${t}</h2><div class="grid">${a.map(card).join('')}</div></div></section>`:'';
+ return `<div class="hero"><div class="wrap"><h1>${T('heroT')}</h1><p>${T('heroP')}</p>
+ <a class="btn b-gold" onclick="go('shop')">${T('shop')} →</a> <a class="btn b-wa" onclick="waGeneral()">${T('wa')}</a></div></div>
+ <section><div class="wrap"><h2 class="t">${T('cats')}</h2>${catGrid()}</div></section>
+ ${sec(T('feat'),f)}${sec(T('best'),b)}${sec(T('offers'),o)}${sec(T('new'+'a'),n)}
+ <section><div class="wrap info"><div class="box"><h3>${T('deliv')}</h3>${T('dinfo')}</div><div class="box"><h3>${T('pick')}</h3>${T('pinfo')}</div><div class="box"><h3>📞 ${L('कस्टमर सपोर्ट','Customer support')}</h3>${T('sinfo')}</div></div></section>`}
+function catGrid(){return `<div class="cats">${S.cats.map(c=>`<div class="cat" onclick="catF='${c.id}';qs='';go('shop')"><span>${c.icon}</span>${esc(L(c.hi,c.en))}</div>`).join('')}</div>`}
+function waGeneral(){if(needWA())return;location.href=waLink(L('नमस्ते, मुझे शिवा किराना स्टोर से सामान मंगवाना है।','Hello, I want to order from Shiva Kirana Store.'))}
+
+function pShop(){
+ let a=vis();if(catF)a=a.filter(p=>p.cat===catF);
+ if(qs){const s=qs.toLowerCase();a=a.filter(p=>(p.hi+' '+p.en+' '+p.brand+' '+C(p.cat).hi+' '+C(p.cat).en).toLowerCase().includes(s))}
+ return `<section><div class="wrap"><h2 class="t">${T('shop')}</h2>
+ <div class="pills" style="margin-bottom:12px;overflow-x:auto;flex-wrap:nowrap"><span class="pill ${catF?'':'on'}" onclick="catF='';render()">${L('सभी','All')}</span>${S.cats.map(c=>`<span class="pill ${catF===c.id?'on':''}" style="white-space:nowrap" onclick="catF='${c.id}';render()">${c.icon} ${esc(L(c.hi,c.en))}</span>`).join('')}</div>
+ ${a.length?`<div class="grid">${a.map(card).join('')}</div>`:`<p>${T('nothing')}</p>`}</div></section>`}
+function pCats(){return `<section><div class="wrap"><h2 class="t">${T('cats')}</h2>${catGrid()}</div></section>`}
+function pProd(id){const p=P(id);if(!p)return pShop();
+ return `<section><div class="wrap"><div class="card"><div class="pimg" style="aspect-ratio:4/3;cursor:default">${pimg(p,1)}</div><div class="pb" style="padding:16px">
+ <h2 style="color:var(--red-d)">${esc(pname(p))}</h2><div class="pe">${esc(L(p.en,p.hi))}</div>
+ <div class="pe">${L('श्रेणी','Category')}: ${esc(L(C(p.cat).hi,C(p.cat).en))}${p.brand?' · '+L('ब्रांड','Brand')+': '+esc(p.brand):''}${p.wt?' · '+esc(p.wt):''}</div>
+ <div style="font-size:24px">${priceHTML(p)}</div><div class="stk ${p.stock?'in':'out'}">${p.stock?'✔ '+T('in'):'✖ '+T('out')}</div>
+ <p style="margin:8px 0">${esc(p.desc)||L('शुद्ध और ताज़ा सामान। ज़्यादा जानकारी के लिए दुकान से पूछें।','Pure and fresh. Ask the store for more details.')}</p>
+ <div class="acts"><button class="btn b-red" ${p.stock?'':'disabled'} onclick="addCart('${p.id}')">${T('add')}</button><button class="btn b-blue" ${p.stock?'':'disabled'} onclick="buyNow('${p.id}')">${T('buy')}</button></div></div></div></div></section>`}
+
+function totals(deliv){
+ let sub=0,unp=0;cart.forEach(i=>{const p=P(i.id);if(!p)return;if(hasPrice(p))sub+=p.price*i.q;else unp++});
+ let d=0;if(deliv==='home'){d=+S.settings.delivery||0;if(+S.settings.freeAbove>0&&sub>=+S.settings.freeAbove)d=0}
+ return{sub,unp,d,total:sub+d}}
+function pCart(){
+ cart=cart.filter(i=>P(i.id));
+ if(!cart.length)return `<section><div class="wrap"><h2 class="t">${T('cart')}</h2><p>${T('empty')}</p><br><a class="btn b-red" onclick="go('shop')">${T('shop')}</a></div></section>`;
+ const t=totals('home');
+ return `<section><div class="wrap"><h2 class="t">${T('cart')}</h2>${cart.map(i=>{const p=P(i.id);return `<div class="row"><div class="th">${p.img?`<img src="${esc(p.img)}">`:C(p.cat).icon}</div><div class="m"><b>${esc(pname(p))}</b><div class="pe">${p.wt?esc(p.wt):''}</div>${priceHTML(p)}</div>
+ <div><div class="qty"><button onclick="chg('${p.id}',-1)">−</button><b>${i.q}</b><button onclick="chg('${p.id}',1)">+</button></div><div style="text-align:center;margin-top:4px"><a onclick="rm('${p.id}')" style="color:var(--red);font-size:14px">🗑 ${L('हटाएं','Remove')}</a></div></div></div>`}).join('')}
+ <div class="sum"><div><span>${T('sub')}</span><b>${money(t.sub)}</b></div><div><span>${T('del')}</span><span>${L('चेकआउट पर','at checkout')}</span></div>${t.unp?`<div class="pe" style="display:block">⚠ ${T('pricepending')}</div>`:''}<div class="tot"><span>${T('total')}</span><span>${money(t.sub)}</span></div></div>
+ <br><a class="btn b-red b-full" onclick="go('checkout')">${T('checkout')} →</a></div></section>`}
+
+let co={mode:'home',pay:'whatsapp'};
+function pCheckout(){
+ if(!cart.length)return pCart();
+ const st=S.settings,t=totals(co.mode);
+ return `<section><div class="wrap"><h2 class="t">${T('checkout')}</h2>
+ <label>${L('आपका नाम','Your name')} *</label><input id="cn" autocomplete="name">
+ <label>${L('मोबाइल नंबर','Mobile number')} *</label><input id="cm" inputmode="numeric" maxlength="10" autocomplete="tel">
+ <div class="pills" style="margin:12px 0"><span class="pill ${co.mode==='home'?'on':''}" onclick="co.mode='home';keep();render()">${T('deliv')}</span><span class="pill ${co.mode==='pick'?'on':''}" onclick="co.mode='pick';keep();render()">${T('pick')}</span></div>
+ ${co.mode==='home'?`<label>${L('डिलीवरी पता','Delivery address')} *</label><textarea id="ca" rows="2"></textarea>
+ <div class="two"><div><label>${L('इलाका','Area')}</label><input id="car"></div><div><label>PIN code *</label><input id="cp" inputmode="numeric" maxlength="6"></div></div>
+ <div class="pe">⏱ ${L('अनुमानित समय','Estimated time')}: ${esc(st.eta)}</div>`:`<div class="note">${esc(st.address)||L('दुकान का पता संपर्क पेज पर देखें','See store address on Contact page')}</div>`}
+ <label>${L('ऑर्डर नोट्स','Order notes')}</label><textarea id="cno" rows="2"></textarea>
+ <label>${L('पेमेंट तरीका','Payment method')}</label>
+ <div class="pills"><span class="pill ${co.pay==='whatsapp'?'on':''}" onclick="co.pay='whatsapp';keep();render()">${L('WhatsApp पर कन्फर्म','Confirm on WhatsApp')}</span>
+ ${st.cod?`<span class="pill ${co.pay==='cod'?'on':''}" onclick="co.pay='cod';keep();render()">${L('कैश ऑन डिलीवरी','Cash on delivery')}</span>`:''}
+ ${st.upi?`<span class="pill ${co.pay==='upi'?'on':''}" onclick="co.pay='upi';keep();render()">UPI</span>`:''}</div>
+ ${co.pay==='upi'?`<div class="note">${L('ऑर्डर के बाद UPI ऐप खुलेगा। पेमेंट दुकानदार अपने खाते में देखकर कन्फर्म करेंगे। अपना UPI PIN कभी किसी को न बताएं।','UPI app will open after order. The owner confirms payment in their own account. Never share your UPI PIN.')}</div>`:''}
+ <br><div class="sum"><div><span>${T('sub')}</span><b>${money(t.sub)}</b></div><div><span>${T('del')}</span><span>${co.mode==='pick'||t.d===0?T('free'):money(t.d)}</span></div>${t.unp?`<div class="pe" style="display:block">⚠ ${T('pricepending')}</div>`:''}<div class="tot"><span>${T('total')}</span><span>${money(t.total)}</span></div></div>
+ <br><button class="btn b-wa b-full" onclick="placeOrder()">${T('place')} ✔</button></div></section>`}
+function keep(){['cn','cm','ca','car','cp','cno'].forEach(k=>{const e=document.getElementById(k);if(e)co[k]=e.value})}
+function afterCheckout(){['cn','cm','ca','car','cp','cno'].forEach(k=>{const e=document.getElementById(k);if(e&&co[k])e.value=co[k]})}
+function placeOrder(){
+ const v=k=>(document.getElementById(k)||{value:''}).value.trim();
+ const name=v('cn'),mob=v('cm'),addr=v('ca'),area=v('car'),pin=v('cp'),note=v('cno');
+ if(!name||!/^[6-9]\d{9}$/.test(mob)){toast(L('नाम और सही 10 अंक का मोबाइल डालें','Enter name and valid 10-digit mobile'));return}
+ if(co.mode==='home'){if(!addr||!/^\d{6}$/.test(pin)){toast(L('पता और 6 अंक का PIN डालें','Enter address and 6-digit PIN'));return}
+  const pins=S.settings.pins.split(',').map(s=>s.trim()).filter(Boolean);if(pins.length&&!pins.includes(pin)){toast(L('इस PIN पर डिलीवरी उपलब्ध नहीं है','Delivery not available at this PIN'));return}}
+ if(needWA())return;
+ const t=totals(co.mode);S.seq++;const no='SKS'+new Date().toISOString().slice(2,10).replace(/-/g,'')+'-'+String(S.seq).padStart(3,'0');
+ const items=cart.map(i=>{const p=P(i.id);return{id:p.id,hi:p.hi,en:p.en,wt:p.wt,q:i.q,price:hasPrice(p)?+p.price:null}});
+ const o={no,t:Date.now(),name,mob,mode:co.mode,addr,area,pin,note,pay:co.pay,items,sub:t.sub,d:t.d,total:t.total,status:'received'};
+ S.orders.unshift(o);items.forEach(it=>{});save();
+ let msg=`🛒 *${no}*\n*शिवा किराना स्टोर*\n\n👤 ${name}\n📞 ${mob}\n\n`;
+ items.forEach((it,i)=>{msg+=`${i+1}. ${it.hi} (${it.en}) ${it.wt?it.wt+' ':''}x ${it.q} = ${it.price!=null?money(it.price*it.q):'भाव बताएं'}\n`});
+ msg+=`\nSubtotal: ${money(t.sub)}\nDelivery: ${co.mode==='pick'||!t.d?'Free':money(t.d)}\n*Total: ${money(t.total)}*${t.unp?' (+ भाव बाकी)':''}\n\n`;
+ msg+=co.mode==='home'?`🚚 Home Delivery\n📍 ${addr}, ${area} - ${pin}\n`:`🏪 Self-pickup\n`;
+ msg+=`💳 ${co.pay==='cod'?'Cash on delivery':co.pay==='upi'?'UPI (pay & confirm)':'Confirm on WhatsApp'}\n`;if(note)msg+=`📝 ${note}\n`;
+ cart=[];saveCart();co={mode:'home',pay:'whatsapp'};
+ if(o.pay==='upi'&&S.settings.upi&&t.total>0){window.open(`upi://pay?pa=${encodeURIComponent(S.settings.upi)}&pn=${encodeURIComponent('Shiva Kirana Store')}&am=${t.total}&cu=INR&tn=${encodeURIComponent(no)}`,'_blank')}
+ toast('✔ '+no);location.href=waLink(msg);setTimeout(()=>go('orders'),1200)}
+
+let myMob=localStorage.getItem('sk_mob')||'';
+function pOrders(){
+ return `<section><div class="wrap"><h2 class="t">${T('orders')}</h2><label>${L('अपना मोबाइल नंबर डालें','Enter your mobile number')}</label><div style="display:flex;gap:8px"><input id="om" inputmode="numeric" maxlength="10" value="${esc(myMob)}"><button class="btn b-blue" onclick="myMob=document.getElementById('om').value.trim();localStorage.setItem('sk_mob',myMob);render()">${L('देखें','View')}</button></div><br>
+ ${(()=>{const a=S.orders.filter(o=>myMob&&o.mob===myMob);if(!myMob)return '';if(!a.length)return `<p>${L('कोई ऑर्डर नहीं मिला (इस फोन पर)','No orders found (on this phone)')}</p>`;return a.map(o=>orderCard(o,false)).join('')})()}
+ <div class="note">${L('यहां सिर्फ इसी फोन से किए गए ऑर्डर दिखते हैं। ज़्यादा जानकारी के लिए दुकान को कॉल करें।','Only orders placed from this phone show here. Call the store for more.')}</div></div></section>`}
+function stLabel(k){const s=STATUS.find(x=>x[0]===k);return s?L(s[1],s[2]):k}
+function orderCard(o,adm){return `<div class="box" style="margin-bottom:10px"><div style="display:flex;justify-content:space-between"><b>${esc(o.no)}</b><span class="st">${stLabel(o.status)}</span></div>
+ <div class="pe">${new Date(o.t).toLocaleString('en-IN')}${adm?' · '+esc(o.name)+' · '+esc(o.mob):''}</div>
+ <div>${o.items.map(i=>esc(L(i.hi,i.en))+' x'+i.q).join(', ')}</div>
+ <div><b>${money(o.total)}</b> · ${o.mode==='home'?T('deliv'):T('pick')}${adm&&o.mode==='home'?'<br>📍 '+esc(o.addr+', '+o.area+' - '+o.pin):''}${adm&&o.note?'<br>📝 '+esc(o.note):''}</div>
+ ${adm?`<select onchange="setStatus('${o.no}',this.value)" style="margin-top:6px">${STATUS.map(s=>`<option value="${s[0]}" ${s[0]===o.status?'selected':''}>${s[1]} / ${s[2]}</option>`).join('')}</select>`:''}</div>`}
+
+const PAGES={
+about:()=>`<section><div class="wrap prose"><h2 class="t">${T('about')}</h2><p>${L('शिवा किराना स्टोर आपके पड़ोस की भरोसेमंद दुकान है, जिसके मालिक शिवा कुमार हैं। हमारा वादा है - शुद्ध सामान, उचित दाम और हर समय आपकी सेवा।','Shiva Kirana Store is your trusted neighbourhood store, owned by Shiva Kumar. Our promise: pure goods, fair prices and service at all times.')}</p><p>${L('दाल, चावल, आटा, मसाले, तेल, घी, पूजा सामग्री, बच्चों का सामान और बहुत कुछ - सब एक ही जगह।','Pulses, rice, flour, spices, oil, ghee, puja items, baby products and much more - all in one place.')}</p></div></section>`,
+contact:()=>{const s=S.settings;return `<section><div class="wrap"><h2 class="t">${T('contact')}</h2><div class="box"><h3>शिवा किराना स्टोर</h3><p>👤 Shiva Kumar</p><p>📍 ${esc(s.address)||L('पता जल्द जोड़ा जाएगा','Address coming soon')}</p><p>🕒 ${esc(s.hours)}</p><p>📞 ${esc(s.phone)||'-'}</p>${s.email?`<p>✉ ${esc(s.email)}</p>`:''}</div><br>
+ ${s.phone?`<a class="btn b-blue" href="tel:${esc(s.phone.replace(/\D/g,''))}">📞 ${T('call')}</a> `:''}<a class="btn b-wa" onclick="waGeneral()">💬 WhatsApp</a>
+ ${s.address?`<br><br><iframe title="map" loading="lazy" style="width:100%;height:260px;border:0;border-radius:14px" src="https://maps.google.com/maps?q=${encodeURIComponent(s.address)}&output=embed"></iframe>`:''}</div></section>`},
+delivery:()=>`<section><div class="wrap prose"><h2 class="t">${L('डिलीवरी पॉलिसी','Delivery Policy')}</h2><ul><li>${L('होम डिलीवरी केवल उन PIN code पर, जो दुकानदार ने चालू किए हैं।','Home delivery only at PIN codes enabled by the store.')}</li><li>${L('डिलीवरी चार्ज: ','Delivery charge: ')}${+S.settings.delivery?money(S.settings.delivery):L('ऑर्डर पर बताया जाएगा','confirmed on order')}${+S.settings.freeAbove?L(' (मुफ्त: ',' (free above ')+money(S.settings.freeAbove)+L(' से ऊपर)',')'):''}</li><li>${L('अनुमानित समय: ','Estimated time: ')}${esc(S.settings.eta)}</li><li>${L('खुद लेने आने पर कोई डिलीवरी चार्ज नहीं।','No charge for self-pickup.')}</li></ul></div></section>`,
+refund:()=>`<section><div class="wrap prose"><h2 class="t">${L('रिटर्न और रिफंड पॉलिसी','Return & Refund Policy')}</h2><ul><li>${L('गलत, खराब या एक्सपायर सामान मिलने पर डिलीवरी के समय या उसी दिन दुकान को बताएं।','If you receive wrong, damaged or expired items, tell the store at delivery or the same day.')}</li><li>${L('सामान बदला जाएगा या रकम वापस होगी।','Item will be replaced or amount refunded.')}</li><li>${L('खुले हुए खाने-पीने, पर्सनल केयर और फ्रोजन सामान की वापसी सिर्फ खराबी होने पर।','Opened food, personal care and frozen items are returnable only if defective.')}</li></ul></div></section>`,
+privacy:()=>`<section><div class="wrap prose"><h2 class="t">${L('प्राइवेसी पॉलिसी','Privacy Policy')}</h2><ul><li>${L('हम केवल ऑर्डर पूरा करने के लिए आपका नाम, मोबाइल और पता लेते हैं।','We collect name, mobile and address only to fulfil your order.')}</li><li>${L('आपकी जानकारी किसी तीसरे को बेची नहीं जाती।','Your data is never sold to third parties.')}</li><li>${L('हम आपका UPI PIN या कार्ड की जानकारी कभी नहीं मांगते या रखते।','We never ask for or store your UPI PIN or card details.')}</li></ul></div></section>`,
+terms:()=>`<section><div class="wrap prose"><h2 class="t">${L('नियम और शर्तें','Terms & Conditions')}</h2><ul><li>${L('सामान की उपलब्धता और भाव बदल सकते हैं।','Availability and prices may change.')}</li><li>${L('ऑर्डर दुकानदार की पुष्टि के बाद ही पक्का माना जाएगा।','An order is final only after the owner confirms it.')}</li><li>${L('स्वास्थ्य श्रेणी में केवल कानूनी रूप से बिकने वाला सामान है। प्रिस्क्रिप्शन दवाइयां केवल सक्षम अनुमति और लागू कानून के अनुसार ही बेची जाती हैं।','Health category has only legally saleable items. Prescription medicines are sold only with proper authorisation and as per applicable law.')}</li></ul></div></section>`
+};
+
+/* ================= ADMIN ================= */
+let aTab='products',aEdit=null,authed=sessionStorage.getItem('sk_auth')==='1';
+async function hash(s){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode('sk:'+s));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}
+async function login(){const p=document.getElementById('ap').value;if(p.length<6){toast('कम से कम 6 अक्षर / min 6 chars');return}
+ const h=await hash(p);if(!S.adminHash){S.adminHash=h;save()}else if(S.adminHash!==h){toast('गलत पासवर्ड / Wrong password');return}
+ authed=true;sessionStorage.setItem('sk_auth','1');render()}
+function logout(){authed=false;sessionStorage.removeItem('sk_auth');render()}
+function pAdmin(){
+ if(!authed)return `<section><div class="wrap"><h2 class="t">${T('admin')}</h2><div class="box"><h3>${S.adminHash?'🔐 Login':'🔐 '+L('पहली बार: पासवर्ड बनाएं','First time: create password')}</h3><label>Password</label><input id="ap" type="password" autocomplete="current-password"><br><br><button class="btn b-red b-full" onclick="login()">OK</button></div></div></section>`;
+ const tabs=[['products','📦 '+L('सामान','Products')],['orders','🧾 '+L('ऑर्डर','Orders')],['cats','🗂 '+L('श्रेणी','Categories')],['settings','⚙ '+L('सेटिंग','Settings')],['report','📊 '+L('रिपोर्ट','Reports')]];
+ return `<section><div class="wrap"><h2 class="t">${T('admin')} <button class="btn b-out b-sm" onclick="logout()">Logout</button></h2><div class="tabs">${tabs.map(t=>`<button class="${aTab===t[0]?'on':''}" onclick="aTab='${t[0]}';aEdit=null;render()">${t[1]}</button>`).join('')}</div>${aTabs[aTab]()}</div></section>`}
+const aTabs={
+products(){
+ if(aEdit!==null){const p=aEdit==='new'?{id:'',cat:S.cats[0]?S.cats[0].id:'',hi:'',en:'',brand:'',wt:'',price:'',mrp:'',stock:true,on:true,desc:'',img:''}:P(aEdit);
+  return `<div class="box"><h3>${aEdit==='new'?'➕ '+L('नया सामान','New product'):'✏ '+L('सामान बदलें','Edit product')}</h3>
+  <label>नाम (हिंदी)</label><input id="e_hi" value="${esc(p.hi)}"><label>Name (English)</label><input id="e_en" value="${esc(p.en)}">
+  <label>${L('श्रेणी','Category')}</label><select id="e_cat">${S.cats.map(c=>`<option value="${c.id}" ${c.id===p.cat?'selected':''}>${esc(c.hi)} / ${esc(c.en)}</option>`).join('')}</select>
+  <div class="two"><div><label>Brand</label><input id="e_brand" value="${esc(p.brand)}"></div><div><label>${L('वज़न/मात्रा','Weight/Qty')}</label><input id="e_wt" value="${esc(p.wt)}" placeholder="1 kg"></div></div>
+  <div class="two"><div><label>${L('बिक्री भाव ₹','Selling price ₹')}</label><input id="e_price" type="number" step="any" inputmode="decimal" value="${p.price==null?'':p.price}"></div><div><label>MRP ₹</label><input id="e_mrp" type="number" step="any" inputmode="decimal" value="${p.mrp==null?'':p.mrp}"></div></div>
+  <label>${L('विवरण','Description')}</label><textarea id="e_desc" rows="2">${esc(p.desc)}</textarea>
+  <label>${L('फोटो','Photo')}</label><input type="file" accept="image/*" onchange="upImg(this)"><div id="e_prev">${p.img?`<img src="${esc(p.img)}" style="width:90px;margin-top:6px;border-radius:10px">`:''}</div><input type="hidden" id="e_img" value="${esc(p.img)}">
+  <label><input type="checkbox" id="e_stock" style="width:auto" ${p.stock?'checked':''}> ${L('स्टॉक में है','In stock')}</label><label><input type="checkbox" id="e_on" style="width:auto" ${p.on?'checked':''}> ${L('दुकान में दिखाएं','Show in store')}</label>
+  <label><input type="checkbox" id="e_feat" style="width:auto" ${p.feat?'checked':''}> ${L('खास सामान','Featured')}</label><label><input type="checkbox" id="e_best" style="width:auto" ${p.best?'checked':''}> ${L('सबसे ज़्यादा बिकने वाला','Best seller')}</label>
+  <br><button class="btn b-red" onclick="saveProd('${aEdit}')">💾 Save</button> <button class="btn b-out" onclick="aEdit=null;render()">Cancel</button></div>`}
+ return `<button class="btn b-gold b-full" onclick="aEdit='new';render()">➕ ${L('नया सामान जोड़ें','Add new product')}</button><br><input placeholder="${L('खोजें','Search')}" oninput="aq=this.value;renderList()" id="aqi" value="${esc(aq)}"><br><br><div id="alist">${aList()}</div>`},
+orders(){return S.orders.length?S.orders.map(o=>orderCard(o,true)).join(''):`<p>${L('अभी कोई ऑर्डर नहीं','No orders yet')}</p>`},
+cats(){return `<div class="box"><h3>➕ ${L('नई श्रेणी','New category')}</h3><label>नाम (हिंदी)</label><input id="c_hi"><label>Name (English)</label><input id="c_en"><label>Emoji</label><input id="c_ic" value="📦" maxlength="4"><br><br><button class="btn b-red" onclick="addCat()">Add</button></div><br>${S.cats.map(c=>`<div class="row"><div class="th">${c.icon}</div><div class="m"><b>${esc(c.hi)}</b><div class="pe">${esc(c.en)} · ${S.products.filter(p=>p.cat===c.id).length}</div></div><button class="btn b-out b-sm" onclick="delCat('${c.id}')">🗑</button></div>`).join('')}`},
+settings(){const s=S.settings;const f=(k,l,t='text',ph='')=>`<label>${l}</label><input id="s_${k}" type="${t}" value="${esc(s[k])}" placeholder="${ph}">`;
+ return `<div class="box"><h3>⚙ ${L('दुकान की जानकारी','Store info')}</h3>${f('wa','WhatsApp (10 digit)','tel','9876543210')}${f('phone',L('फोन नंबर','Phone'),'tel')}${f('email','Email','email')}<label>${L('पता','Address')}</label><textarea id="s_address" rows="2">${esc(s.address)}</textarea>${f('hours',L('समय','Hours'))}
+ ${f('delivery',L('डिलीवरी चार्ज ₹','Delivery charge ₹'),'number')}${f('freeAbove',L('इतने ₹ से ऊपर मुफ्त (0 = कभी नहीं)','Free above ₹ (0 = never)'),'number')}${f('pins',L('डिलीवरी PIN codes (कॉमा से अलग, खाली = सब)','Delivery PINs (comma separated, empty = all)'))}${f('eta',L('अनुमानित डिलीवरी समय','Estimated delivery time'))}${f('upi','UPI ID','text','name@bank')}
+ <label><input type="checkbox" id="s_cod" style="width:auto" ${s.cod?'checked':''}> ${L('कैश ऑन डिलीवरी चालू','Enable cash on delivery')}</label><br><button class="btn b-red b-full" onclick="saveSet()">💾 Save</button></div>
+ <br><div class="box"><h3>💾 Backup</h3><button class="btn b-blue b-sm" onclick="backup()">⬇ Download</button> <label class="btn b-out b-sm" style="margin:0">⬆ Restore<input type="file" accept=".json" style="display:none" onchange="restore(this)"></label><div class="pe" style="margin-top:6px">${L('डेटा इसी फोन/ब्राउज़र में सेव होता है, इसलिए बैकअप ज़रूर लें।','Data is saved in this phone/browser, so take backups regularly.')}</div></div>`},
+report(){const ok=S.orders.filter(o=>o.status!=='cancelled'),dl=S.orders.filter(o=>o.status==='delivered');const sum=a=>a.reduce((x,o)=>x+o.total,0);
+ return `<div class="sum"><div><span>${L('कुल ऑर्डर','Total orders')}</span><b>${S.orders.length}</b></div><div><span>${L('डिलीवर हुए','Delivered')}</span><b>${dl.length}</b></div><div><span>${L('कुल बिक्री (रद्द छोड़कर)','Sales (excl. cancelled)')}</span><b>${money(sum(ok))}</b></div><div><span>${L('डिलीवर हुई बिक्री','Delivered sales')}</span><b>${money(sum(dl))}</b></div></div><br>${STATUS.map(s=>`<div class="row"><b>${s[1]}</b><span class="sp"></span>${S.orders.filter(o=>o.status===s[0]).length}</div>`).join('')}`}
+};
+let aq='';
+function aList(){const s=aq.toLowerCase();return S.products.filter(p=>!s||(p.hi+p.en+p.brand).toLowerCase().includes(s)).slice(0,60).map(p=>`<div class="row" style="flex-wrap:wrap"><div class="th">${p.img?`<img src="${esc(p.img)}">`:C(p.cat).icon}</div><div class="m"><b>${esc(p.hi)}</b><div class="pe">${esc(p.en)} · ${hasPrice(p)?money(p.price):'—'} · ${p.stock?'✔':'✖'} · ${p.on?'👁':'🚫'}</div></div>
+ <div style="display:flex;gap:6px"><button class="btn b-blue b-sm" onclick="aEdit='${p.id}';render()">✏</button><button class="btn b-out b-sm" onclick="quick('${p.id}','stock')">${p.stock?L('स्टॉक खत्म','Out'):L('स्टॉक में','In')}</button><button class="btn b-out b-sm" onclick="quick('${p.id}','on')">${p.on?'🚫':'👁'}</button><button class="btn b-out b-sm" onclick="delProd('${p.id}')">🗑</button></div></div>`).join('')+(S.products.length>60?`<p class="pe">${L('ऊपर खोज से और सामान ढूंढें','Use search to find more')}</p>`:'')}
+function renderList(){document.getElementById('alist').innerHTML=aList()}
+function quick(id,k){const p=P(id);p[k]=!p[k];save();renderList()}
+function delProd(id){if(confirm(L('हटाएं?','Delete?'))){S.products=S.products.filter(p=>p.id!==id);cart=cart.filter(i=>i.id!==id);save();saveCart();renderList()}}
+function upImg(inp){const f=inp.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{const m=480,k=Math.min(1,m/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=im.width*k;c.height=im.height*k;c.getContext('2d').drawImage(im,0,0,c.width,c.height);const d=c.toDataURL('image/jpeg',.75);document.getElementById('e_img').value=d;document.getElementById('e_prev').innerHTML=`<img src="${d}" style="width:90px;margin-top:6px;border-radius:10px">`};im.src=r.result};r.readAsDataURL(f)}
+function saveProd(id){const g=k=>document.getElementById('e_'+k),n=v=>v===''?null:+v;
+ const hi=g('hi').value.trim(),en=g('en').value.trim();if(!hi&&!en){toast('नाम डालें / Enter name');return}
+ const d={hi:hi||en,en:en||hi,cat:g('cat').value,brand:g('brand').value.trim(),wt:g('wt').value.trim(),price:n(g('price').value),mrp:n(g('mrp').value),desc:g('desc').value.trim(),img:g('img').value,stock:g('stock').checked,on:g('on').checked,feat:g('feat').checked,best:g('best').checked};
+ if(id==='new'){S.products.unshift(Object.assign({id:'p'+Date.now(),isnew:true,t:Date.now()},d))}else Object.assign(P(id),d);
+ save();aEdit=null;toast('✔ Saved');render()}
+function addCat(){const hi=document.getElementById('c_hi').value.trim(),en=document.getElementById('c_en').value.trim()||hi;if(!hi)return;S.cats.push({id:'c'+Date.now(),hi,en,icon:document.getElementById('c_ic').value||'📦'});save();render()}
+function delCat(id){if(S.products.some(p=>p.cat===id)){toast(L('पहले इस श्रेणी का सामान हटाएं','Remove its products first'));return}S.cats=S.cats.filter(c=>c.id!==id);save();render()}
+function setStatus(no,st){const o=S.orders.find(x=>x.no===no);o.status=st;save();toast('✔')}
+function saveSet(){const s=S.settings;['wa','phone','email','address','hours','delivery','freeAbove','pins','eta','upi'].forEach(k=>{const v=document.getElementById('s_'+k).value.trim();s[k]=(k==='delivery'||k==='freeAbove')?(+v||0):v});s.cod=document.getElementById('s_cod').checked;save();toast('✔ Saved');renderChrome()}
+function backup(){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(S)],{type:'application/json'}));a.download='shiva-kirana-backup.json';a.click()}
+function restore(i){const f=i.files[0];if(!f)return;f.text().then(t=>{try{const d=JSON.parse(t);if(!d.products)throw 0;S=d;save();toast('✔ Restored');render()}catch(e){toast('Invalid file')}})}
+
+/* ================= CHROME / RENDER ================= */
+function renderChrome(){
+ document.getElementById('bn').textContent=T('name');document.getElementById('bt').textContent=T('tag');document.getElementById('lb').textContent=lang==='hi'?'EN':'हिं';
+ document.getElementById('q').placeholder=T('search').replace('🔍 ','');
+ const m=[['home','home'],['shop','shop'],['cats','cats'],['orders','orders'],['about','about'],['contact','contact']];
+ document.getElementById('menu').innerHTML=m.map(x=>`<a href="#${x[0]}" class="${route[0]===x[0]?'on':''}">${T(x[1])}</a>`).join('');
+ const s=S.settings,ph=(s.phone||'').replace(/\D/g,'');
+ document.getElementById('bar').innerHTML=(ph?`<a class="btn b-blue b-sm" href="tel:${ph}">📞 ${T('call')}</a>`:'')+`<a class="btn b-wa b-sm" onclick="waGeneral()">💬 WhatsApp</a><a class="btn b-red b-sm" onclick="go('cart')">🛒 ${T('cart')}</a>`;
+ document.getElementById('foot').innerHTML=`<div class="info"><div><h3>शिवा किराना स्टोर</h3><p>${T('tag')}</p><p>Shiva Kumar</p><p>📍 ${esc(s.address)||''}</p><p>📞 ${esc(s.phone)||''}</p><p>🕒 ${esc(s.hours)}</p></div>
+ <div><h3>${L('जानकारी','Info')}</h3><a href="#delivery">${L('डिलीवरी पॉलिसी','Delivery Policy')}</a><a href="#refund">${L('रिटर्न और रिफंड','Return & Refund')}</a><a href="#privacy">${L('प्राइवेसी पॉलिसी','Privacy Policy')}</a><a href="#terms">${L('नियम और शर्तें','Terms & Conditions')}</a><a href="#admin">🔐 ${T('admin')}</a></div></div>
+ <div class="built">built with ❤️ by 21.coders</div>`}
+function render(){
+ const h=(location.hash||'#home').slice(1).split('/');route=h;saveCart();
+ const r=h[0];let html;
+ if(r==='home')html=pHome();else if(r==='shop')html=pShop();else if(r==='cats')html=pCats();else if(r==='product')html=pProd(h[1]);else if(r==='cart')html=pCart();else if(r==='checkout')html=pCheckout();else if(r==='orders')html=pOrders();else if(r==='admin')html=pAdmin();else if(PAGES[r])html=PAGES[r]();else html=pHome();
+ document.getElementById('app').innerHTML=html;renderChrome();
+ if(r==='checkout')afterCheckout();
+ if(r!=='admin'&&r!=='checkout')window.scrollTo(0,0);
+ document.title=T('name')+' | '+(lang==='hi'?'Shiva Kirana Store':'शिवा किराना स्टोर');document.documentElement.lang=lang;
+}
+saveCart();render();
+</script>
+</body>
+</html>
